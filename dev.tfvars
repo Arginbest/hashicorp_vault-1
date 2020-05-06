@@ -6,7 +6,7 @@ instance_type = "t2.large"
 key_name = "vault"
 ami = "ami-02eac2c0129f6376b"  #Centos 7 global AMI
 user = "centos"
-zone_id = "Z06788002UVEF0OY32AAO"  #Hosted DNS Zone
+zone_id = "Z00791621PH414P2JJEA9"  #Hosted DNS Zone
 domain  = "betulslife.com"
 
 
