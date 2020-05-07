@@ -2,12 +2,11 @@ Hello everyone, after forking this Hashicorp_vault repository in order to run on
 
 
 In backend.tf file
-terraform {
-  backend "s3" {
-    bucket = "project-emil".                                    # give your own bucket name
-    key    = "path/to/my/key"
 
-    #dynamodb_table = 
-    region = "us-east-1"
+     terraform {
+        backend "s3" {
+        bucket = "project-emil".                                    # give your own bucket name
+        key    = "path/to/my/key"
+        region = "us-east-1"                                        #give reagion that you want
   }
 }
