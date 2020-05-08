@@ -14,17 +14,17 @@ Hello everyone, after forking this Hashicorp_vault repository in order to run on
 }
 
 ## dev.tfvars
-
+In this file you can do changes on each line
 ## Provide a region for VPC
 
-     region      =   "us-east-1"                                    # give region that you want
+     region      =   "us-east-1"                                # give region that you want
      region_name  =   "Virginia"
-     instance_type = "t2.large"                                     # choose prefered type
-     key_name = "vault"                                             # give prefered keyname
-     ami = "ami-02eac2c0129f6376b"                                  # any ami image, here was given #Centos 7 global AMI
+     instance_type = "t2.large"                                 # choose prefered type
+     key_name = "vault"                                         # give prefered keyname
+     ami = "ami-02eac2c0129f6376b"                              # you can give ami image, here used Centos 7 global AMI
      user = "centos"
-     zone_id = "Z00791621PH414P2JJEA9"  #Hosted DNS Zone            # give your own own hostname ID
-     domain  = "emilbek.com"                                        # replace domain name
+     zone_id = "Z00791621PH414P2JJEA9"  #Hosted DNS Zone        # give your own hostname ID
+     domain  = "emilbek.com"                                    # replace domain name
 
 
 
