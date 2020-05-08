@@ -1,3 +1,5 @@
+
+
 Hello everyone, after forking this Hashicorp_vault repository in order to run on your own device you need follow next steps
 
 
@@ -21,7 +23,7 @@ Hello everyone, after forking this Hashicorp_vault repository in order to run on
      ami = "ami-02eac2c0129f6376b"                                  # any ami image, here was given #Centos 7 global AMI
      user = "centos"
      zone_id = "Z00791621PH414P2JJEA9"  #Hosted DNS Zone            # give your own own hostname ID
-     domain  = "betulslife.com"                                     # replace domain name
+     domain  = "emilbek.com"                                        # replace domain name
 
 
 
